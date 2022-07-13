@@ -15,6 +15,9 @@ const Links = () => {
         <div className="border-2 m-2 p-5 w-1/2 lg:w-3/12 rounded-lg lg:hover:bg-white lg:hover:text-black">
           <a href="mailto:akrikorian12@gmail.com">Email</a>
         </div>
+        <div className="border-2 m-2 p-5 w-1/2 lg:w-3/12 rounded-lg lg:hover:bg-white lg:hover:text-black">
+          <a href="/Projects">Projects</a>
+        </div>
       </div>
     )
   }

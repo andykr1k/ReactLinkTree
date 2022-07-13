@@ -7,7 +7,7 @@ const Projects = () => {
       <Header />
       <ProfilePic />
       <SecondLinks />
-      <div className='fixed bottom-0'>
+      <div className='m-10'>
         <Footer />
       </div>
     </div>
