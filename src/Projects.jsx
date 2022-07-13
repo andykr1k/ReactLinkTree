@@ -6,7 +6,7 @@ const Projects = () => {
     <div className='items-center text-center justify-center object-center'>
       <Header />
       <ProfilePic />
-      <Links />
+      <SecondLinks />
     </div>
   )
 }
