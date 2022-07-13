@@ -7,6 +7,9 @@ const Projects = () => {
       <Header />
       <ProfilePic />
       <SecondLinks />
+      <div className='fixed bottom-0'>
+        <Footer />
+      </div>
     </div>
   )
 }
