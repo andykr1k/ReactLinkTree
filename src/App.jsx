@@ -10,7 +10,7 @@ const App = () => {
         <ProfilePic />
         <Routes>
           <Route path='/' element={<Links />} />
-          <Route path='/' element={<SecondLinks />} />
+          <Route path='/projects' element={<SecondLinks />} />
         </Routes>
         <div className='m-5'>
           <Footer />
