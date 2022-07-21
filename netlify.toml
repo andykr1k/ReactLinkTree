@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "/build"
+  command = "npm run build && cp _redirects dist/_redirects"
+  publish = "/dist"
   base ="/"
 
 [[redirects]]
