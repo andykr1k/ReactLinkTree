@@ -7,7 +7,10 @@ const App = () => {
   return (
     <div className='items-center text-center justify-center object-center'>
       <Header />
-        <ProfilePic />
+      <Routes>
+          <Route path='/' element={<ProfilePic />} />
+          <Route path='/projects' element={<div className='m-5'></div>} />
+        </Routes>
         <Routes>
           <Route path='/' element={<Links />} />
           <Route path='/projects' element={<SecondLinks />} />
